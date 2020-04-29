@@ -38,7 +38,7 @@ import HomePage from "./homePage";
 const Stack = createStackNavigator();
 function DetailScreen() {
     return (
-        <Stack.Navigator initialRouteName="Home">
+        <Stack.Navigator initialRouteName="Details">
             <Stack.Screen
                 name="Details"
                 component={detailPage}

@@ -13,7 +13,8 @@ import {
     View,
     Text,
     StatusBar,
-    Button
+    Button,
+    TouchableOpacity,
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
@@ -22,14 +23,33 @@ import {createStackNavigator} from '@react-navigation/stack';
 function detailPage({navigation}) {
     return (
         <View style={{flex:1, alignItems:"center", justifyContent:'flex-start'}}>
-            <Button
-                title="jump to DetailTab2"
-                color="blue"
+            <TouchableOpacity
+                style={styles.button}
                 onPress={() => navigation.navigate('Details2')}
-            />
+            >
+                <Text style={styles.text}>jump to DetailTab2</Text>
+            </TouchableOpacity>
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    button :{
+        height: 40,
+        width: 380,
+        borderRadius: 5,
+        backgroundColor: 'rgb(42,117,237)',
+        position: 'relative',
+        top: 20,
+        alignItems: 'center',
+        justifyContent: 'center',
+        overflow: 'hidden',
+    },
+    text :{
+        fontSize: 18,
+        color: 'white',
+    }
+})
 
 
 export default detailPage;
