@@ -28,49 +28,40 @@ import {
 import { NavigationContainer } from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import StackNavigator from "@react-navigation/stack/src/navigators/createStackNavigator";
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import detailPage from "./detailPage";
-
 import PropTypes from 'prop-types';
 import detailPage2 from "./detailPage2";
+import HomePage from "./homePage";
 
-
-function HomeScreen({navigation}) {
-  return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home Screen</Text>
-        <Button
-            title="Go to Details"
-            onPress={() => navigation.navigate('Details')}
-        />
-      </View>
-  );
-}
 
 const Stack = createStackNavigator();
+function DetailScreen() {
+    return (
+        <Stack.Navigator initialRouteName="Home">
+            <Stack.Screen
+                name="Details"
+                component={detailPage}
+                options={{
+                    title: 'DetailTab1',
+                    headerLeft: null,
+                }} />
+            <Stack.Screen
+                name="Details2"
+                component={detailPage2}
+                options={{ title: 'DetailTab2' }} />
+        </Stack.Navigator>
+    );
+}
 
+const Tab = createBottomTabNavigator();
 function App() {
   return (
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="Home">
-          <Stack.Screen
-              name="Details"
-              component={detailPage}
-              options={{
-                  title: 'DetailTab1',
-                  headerLeft: null,
-              }} />
-          <Stack.Screen
-              name="Details2"
-              component={detailPage2}
-              options={{ title: 'DetailTab2' }} />
-          <Stack.Screen
-              name="Home"
-              component={HomeScreen}
-              options={{
-                  headerShown: false,
-              }}
-          />
-        </Stack.Navigator>
+        <Tab.Navigator>
+            <Tab.Screen name="Home" component={HomePage} />
+            <Tab.Screen name="Details" component={DetailScreen} />
+        </Tab.Navigator>
       </NavigationContainer>
   );
 }

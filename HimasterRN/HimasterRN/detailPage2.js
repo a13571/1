@@ -26,8 +26,6 @@ function detailPage2({navigation}) {
                 title="primary"
                 color="blue"
             />
-            <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
-            <Button title="Go back" onPress={() => navigation.goBack()} />
         </View>
     );
 }
