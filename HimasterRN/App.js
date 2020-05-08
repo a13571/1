@@ -37,21 +37,21 @@ import HomePage from "./homePage";
 
 const Stack = createStackNavigator();
 function DetailScreen() {
-  return (
-      <Stack.Navigator initialRouteName="Details">
-        <Stack.Screen
-            name="Details"
-            component={detailPage}
-            options={{
-              title: 'DetailTab1',
-              headerLeft: null,
-            }} />
-        <Stack.Screen
-            name="Details2"
-            component={detailPage2}
-            options={{ title: 'DetailTab2' }} />
-      </Stack.Navigator>
-  );
+    return (
+        <Stack.Navigator initialRouteName="Details">
+            <Stack.Screen
+                name="Details"
+                component={detailPage}
+                options={{
+                    title: 'DetailTab1',
+                    headerLeft: null,
+                }} />
+            <Stack.Screen
+                name="Details2"
+                component={detailPage2}
+                options={{ title: 'DetailTab2' }} />
+        </Stack.Navigator>
+    );
 }
 
 const Tab = createBottomTabNavigator();
@@ -59,8 +59,8 @@ function App() {
   return (
       <NavigationContainer>
         <Tab.Navigator>
-          <Tab.Screen name="Home" component={HomePage} />
-          <Tab.Screen name="Details" component={DetailScreen} />
+            <Tab.Screen name="Home" component={HomePage} />
+            <Tab.Screen name="Details" component={DetailScreen} />
         </Tab.Navigator>
       </NavigationContainer>
   );

@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* HimasterRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HimasterRNTests.m */; };
-		7DDCF15BBF818AA891A98D87 /* libPods-HimasterRN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2694699AAFAE0CCEA4E9F25 /* libPods-HimasterRN-tvOS.a */; };
-		9410D1B9C3DB42ABB44FD94B /* libPods-HimasterRN-HimasterRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C95E9C57EFF9EEBF19028F73 /* libPods-HimasterRN-HimasterRNTests.a */; };
-		A1798648E0F90DA42AE05F0C /* libPods-HimasterRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C27E5EFA15E198BE6368FC6 /* libPods-HimasterRN.a */; };
-		C8CC967B7A7287B3B13D34B3 /* libPods-HimasterRN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB2D24E1809A24B5AD7B821 /* libPods-HimasterRN-tvOSTests.a */; };
+		96222E633FFD4F4543457B40 /* libPods-HimasterRN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 159AA70B5613F0AC0D7263D0 /* libPods-HimasterRN-tvOSTests.a */; };
+		CEA670296457D7F4DDFD3463 /* libPods-HimasterRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE47D4D2CB4B4841948DA46 /* libPods-HimasterRN.a */; };
+		D5502E70A1066E0491569BB8 /* libPods-HimasterRN-HimasterRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC8A1FCEA71D7D0618D1965 /* libPods-HimasterRN-HimasterRNTests.a */; };
+		D92627492F868294EBF73FF9 /* libPods-HimasterRN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E025EFF058789DAF3CD55A97 /* libPods-HimasterRN-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,22 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HimasterRN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HimasterRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HimasterRN/main.m; sourceTree = "<group>"; };
-		1A27450D0651FEED34A39F95 /* Pods-HimasterRN-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-HimasterRN-tvOSTests/Pods-HimasterRN-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		159AA70B5613F0AC0D7263D0 /* libPods-HimasterRN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HimasterRN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		214C6F83E4136A4C2D2E3359 /* Pods-HimasterRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN.release.xcconfig"; path = "Target Support Files/Pods-HimasterRN/Pods-HimasterRN.release.xcconfig"; sourceTree = "<group>"; };
+		29C717D7597A0EC1BAA1B092 /* Pods-HimasterRN-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-HimasterRN-tvOSTests/Pods-HimasterRN-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CC8A1FCEA71D7D0618D1965 /* libPods-HimasterRN-HimasterRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HimasterRN-HimasterRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* HimasterRN-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HimasterRN-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* HimasterRN-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HimasterRN-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B8EC15EA90954ADC7EFFDE1 /* Pods-HimasterRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN.release.xcconfig"; path = "Target Support Files/Pods-HimasterRN/Pods-HimasterRN.release.xcconfig"; sourceTree = "<group>"; };
-		72E350DA1B31FB3E578FAB25 /* Pods-HimasterRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN.debug.xcconfig"; path = "Target Support Files/Pods-HimasterRN/Pods-HimasterRN.debug.xcconfig"; sourceTree = "<group>"; };
-		9AF3B995410347BEB2C16D84 /* Pods-HimasterRN-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HimasterRN-tvOSTests/Pods-HimasterRN-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C27E5EFA15E198BE6368FC6 /* libPods-HimasterRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HimasterRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2CD069B972A0E7054D337C3 /* Pods-HimasterRN-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-tvOS.release.xcconfig"; path = "Target Support Files/Pods-HimasterRN-tvOS/Pods-HimasterRN-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		BBB2D24E1809A24B5AD7B821 /* libPods-HimasterRN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HimasterRN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCFB43B10713893B2E3584ED /* Pods-HimasterRN-HimasterRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-HimasterRNTests.debug.xcconfig"; path = "Target Support Files/Pods-HimasterRN-HimasterRNTests/Pods-HimasterRN-HimasterRNTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C95E9C57EFF9EEBF19028F73 /* libPods-HimasterRN-HimasterRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HimasterRN-HimasterRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D951B5A1890C6FCFA55426DC /* Pods-HimasterRN-HimasterRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-HimasterRNTests.release.xcconfig"; path = "Target Support Files/Pods-HimasterRN-HimasterRNTests/Pods-HimasterRN-HimasterRNTests.release.xcconfig"; sourceTree = "<group>"; };
-		E2694699AAFAE0CCEA4E9F25 /* libPods-HimasterRN-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HimasterRN-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E68AC22E2522190F53C057D4 /* Pods-HimasterRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-HimasterRN-tvOS/Pods-HimasterRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF3B55E0715C1C5F50939F5 /* Pods-HimasterRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-HimasterRN-tvOS/Pods-HimasterRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		62BF5E401F3FD636D42331E7 /* Pods-HimasterRN-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HimasterRN-tvOSTests/Pods-HimasterRN-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1E23941BAB30972F3208E6 /* Pods-HimasterRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN.debug.xcconfig"; path = "Target Support Files/Pods-HimasterRN/Pods-HimasterRN.debug.xcconfig"; sourceTree = "<group>"; };
+		96A31204546526AC1F3A8B93 /* Pods-HimasterRN-HimasterRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-HimasterRNTests.debug.xcconfig"; path = "Target Support Files/Pods-HimasterRN-HimasterRNTests/Pods-HimasterRN-HimasterRNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDB67B33F35D3FFAB5D74CDC /* Pods-HimasterRN-HimasterRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-HimasterRNTests.release.xcconfig"; path = "Target Support Files/Pods-HimasterRN-HimasterRNTests/Pods-HimasterRN-HimasterRNTests.release.xcconfig"; sourceTree = "<group>"; };
+		DDE47D4D2CB4B4841948DA46 /* libPods-HimasterRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HimasterRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E025EFF058789DAF3CD55A97 /* libPods-HimasterRN-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HimasterRN-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FF1B2671C4047CB8A8CA0E86 /* Pods-HimasterRN-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimasterRN-tvOS.release.xcconfig"; path = "Target Support Files/Pods-HimasterRN-tvOS/Pods-HimasterRN-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9410D1B9C3DB42ABB44FD94B /* libPods-HimasterRN-HimasterRNTests.a in Frameworks */,
+				D5502E70A1066E0491569BB8 /* libPods-HimasterRN-HimasterRNTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1798648E0F90DA42AE05F0C /* libPods-HimasterRN.a in Frameworks */,
+				CEA670296457D7F4DDFD3463 /* libPods-HimasterRN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DDCF15BBF818AA891A98D87 /* libPods-HimasterRN-tvOS.a in Frameworks */,
+				D92627492F868294EBF73FF9 /* libPods-HimasterRN-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,29 +98,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8CC967B7A7287B3B13D34B3 /* libPods-HimasterRN-tvOSTests.a in Frameworks */,
+				96222E633FFD4F4543457B40 /* libPods-HimasterRN-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		003885700AA6A3E2162A29B3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				72E350DA1B31FB3E578FAB25 /* Pods-HimasterRN.debug.xcconfig */,
-				6B8EC15EA90954ADC7EFFDE1 /* Pods-HimasterRN.release.xcconfig */,
-				BCFB43B10713893B2E3584ED /* Pods-HimasterRN-HimasterRNTests.debug.xcconfig */,
-				D951B5A1890C6FCFA55426DC /* Pods-HimasterRN-HimasterRNTests.release.xcconfig */,
-				E68AC22E2522190F53C057D4 /* Pods-HimasterRN-tvOS.debug.xcconfig */,
-				A2CD069B972A0E7054D337C3 /* Pods-HimasterRN-tvOS.release.xcconfig */,
-				9AF3B995410347BEB2C16D84 /* Pods-HimasterRN-tvOSTests.debug.xcconfig */,
-				1A27450D0651FEED34A39F95 /* Pods-HimasterRN-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		00E356EF1AD99517003FC87E /* HimasterRNTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,12 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				9C27E5EFA15E198BE6368FC6 /* libPods-HimasterRN.a */,
-				C95E9C57EFF9EEBF19028F73 /* libPods-HimasterRN-HimasterRNTests.a */,
-				E2694699AAFAE0CCEA4E9F25 /* libPods-HimasterRN-tvOS.a */,
-				BBB2D24E1809A24B5AD7B821 /* libPods-HimasterRN-tvOSTests.a */,
+				DDE47D4D2CB4B4841948DA46 /* libPods-HimasterRN.a */,
+				2CC8A1FCEA71D7D0618D1965 /* libPods-HimasterRN-HimasterRNTests.a */,
+				E025EFF058789DAF3CD55A97 /* libPods-HimasterRN-tvOS.a */,
+				159AA70B5613F0AC0D7263D0 /* libPods-HimasterRN-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64D49E1C3C562454D6FB64B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D1E23941BAB30972F3208E6 /* Pods-HimasterRN.debug.xcconfig */,
+				214C6F83E4136A4C2D2E3359 /* Pods-HimasterRN.release.xcconfig */,
+				96A31204546526AC1F3A8B93 /* Pods-HimasterRN-HimasterRNTests.debug.xcconfig */,
+				BDB67B33F35D3FFAB5D74CDC /* Pods-HimasterRN-HimasterRNTests.release.xcconfig */,
+				5CF3B55E0715C1C5F50939F5 /* Pods-HimasterRN-tvOS.debug.xcconfig */,
+				FF1B2671C4047CB8A8CA0E86 /* Pods-HimasterRN-tvOS.release.xcconfig */,
+				62BF5E401F3FD636D42331E7 /* Pods-HimasterRN-tvOSTests.debug.xcconfig */,
+				29C717D7597A0EC1BAA1B092 /* Pods-HimasterRN-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* HimasterRNTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				003885700AA6A3E2162A29B3 /* Pods */,
+				64D49E1C3C562454D6FB64B1 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HimasterRNTests" */;
 			buildPhases = (
-				58FE84FCE4A7A6C26352A5F2 /* [CP] Check Pods Manifest.lock */,
+				98C133644949A150C17AF9DA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HimasterRN" */;
 			buildPhases = (
-				9090F35F92B6A2FC782E0EC0 /* [CP] Check Pods Manifest.lock */,
+				B5B18C1FF3775B6F78D04E73 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HimasterRN-tvOS" */;
 			buildPhases = (
-				0B0377FCD8CCB68024537210 /* [CP] Check Pods Manifest.lock */,
+				A1DA13AEBEF3452E060A5F89 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HimasterRN-tvOSTests" */;
 			buildPhases = (
-				776F27E17DE82D2164B2C5F3 /* [CP] Check Pods Manifest.lock */,
+				9260E706471F8CE4D7C487B2 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -375,28 +375,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0B0377FCD8CCB68024537210 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HimasterRN-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,29 +389,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		58FE84FCE4A7A6C26352A5F2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HimasterRN-HimasterRNTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		776F27E17DE82D2164B2C5F3 /* [CP] Check Pods Manifest.lock */ = {
+		9260E706471F8CE4D7C487B2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,7 +411,51 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9090F35F92B6A2FC782E0EC0 /* [CP] Check Pods Manifest.lock */ = {
+		98C133644949A150C17AF9DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HimasterRN-HimasterRNTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DA13AEBEF3452E060A5F89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HimasterRN-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B18C1FF3775B6F78D04E73 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -582,7 +582,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCFB43B10713893B2E3584ED /* Pods-HimasterRN-HimasterRNTests.debug.xcconfig */;
+			baseConfigurationReference = 96A31204546526AC1F3A8B93 /* Pods-HimasterRN-HimasterRNTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -605,7 +605,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D951B5A1890C6FCFA55426DC /* Pods-HimasterRN-HimasterRNTests.release.xcconfig */;
+			baseConfigurationReference = BDB67B33F35D3FFAB5D74CDC /* Pods-HimasterRN-HimasterRNTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -625,7 +625,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E350DA1B31FB3E578FAB25 /* Pods-HimasterRN.debug.xcconfig */;
+			baseConfigurationReference = 6D1E23941BAB30972F3208E6 /* Pods-HimasterRN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -652,7 +652,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B8EC15EA90954ADC7EFFDE1 /* Pods-HimasterRN.release.xcconfig */;
+			baseConfigurationReference = 214C6F83E4136A4C2D2E3359 /* Pods-HimasterRN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -673,7 +673,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E68AC22E2522190F53C057D4 /* Pods-HimasterRN-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 5CF3B55E0715C1C5F50939F5 /* Pods-HimasterRN-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2CD069B972A0E7054D337C3 /* Pods-HimasterRN-tvOS.release.xcconfig */;
+			baseConfigurationReference = FF1B2671C4047CB8A8CA0E86 /* Pods-HimasterRN-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -729,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AF3B995410347BEB2C16D84 /* Pods-HimasterRN-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 62BF5E401F3FD636D42331E7 /* Pods-HimasterRN-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,7 +756,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A27450D0651FEED34A39F95 /* Pods-HimasterRN-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 29C717D7597A0EC1BAA1B092 /* Pods-HimasterRN-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

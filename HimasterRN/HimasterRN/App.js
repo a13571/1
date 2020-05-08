@@ -29,10 +29,13 @@ import { NavigationContainer } from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import StackNavigator from "@react-navigation/stack/src/navigators/createStackNavigator";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import SplashScreen from 'react-native-splash-screen'
+
 import detailPage from "./detailPage";
 import PropTypes from 'prop-types';
 import detailPage2 from "./detailPage2";
 import HomePage from "./homePage";
+import {TouchableItem} from "@react-navigation/stack/src/views/TouchableItem";
 
 
 const Stack = createStackNavigator();
@@ -55,15 +58,20 @@ function DetailScreen() {
 }
 
 const Tab = createBottomTabNavigator();
-function App() {
-  return (
-      <NavigationContainer>
-        <Tab.Navigator>
-          <Tab.Screen name="Home" component={HomePage} />
-          <Tab.Screen name="Details" component={DetailScreen} />
-        </Tab.Navigator>
-      </NavigationContainer>
-  );
-}
+export default class App extends Component {
+    componentDidMount() {
+        SplashScreen.hide();
+    }
 
-export default App;
+    render() {
+        return(
+            <NavigationContainer>
+                <Tab.Navigator>
+                    <Tab.Screen name="Home" component={HomePage} />
+                    <Tab.Screen name="Details" component={DetailScreen} />
+                </Tab.Navigator>
+            </NavigationContainer>
+        );
+    }
+
+}
